@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ChessApp</title>
+        <link rel="stylesheet" href="chess.css">
+    </head>
+    <body>
+        <section id="home">
+            <div class="zone"></div>
+            <header id="nav">
+                <a href="chess.html"><img src="pawn.png" class="logo"></a>
+                <ul class="ul_list">
+                    <li class="li_list"><a class="link_list" href="chess.html">Home</a></li>
+                    <li class="li_list"><a class="link_list" href="blog.html">Blog</a></li>
+                    <li class="li_list"><a class="link_list" href="contactchess.html">Contact</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2 id="head1">It's not a Game</h2>
+                    <h2 id="head2">It's <span>Chess</span></h2>
+                    <p class="text">Welcome to our chess sanctuary, where every move matters and every decision shapes the outcome. Whether you're a seasoned grandmaster or just beginning your journey into the world of chess.</p>
+                    <a class="btnHead" href="blog.html">Read More</a>
+                </div>
+                <div class="imgBox">
+                    <img src="chess-piece-queen-pawn-checkmate-chess-82082284d8008e060c44539981f5ee63.png" class="chessimg">
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="chess-piece-queen-pawn-checkmate-chess-82082284d8008e060c44539981f5ee63.png" onclick="changeColor('#ff9900');changeImg('chess-piece-queen-pawn-checkmate-chess-82082284d8008e060c44539981f5ee63.png');"></li>
+                <li><img src="chess-piece-horse-knight-queen-chess-piece-685f7956858553c3aef5b61f7b88109d.png" onclick="changeColor('#994d00');changeImg('chess-piece-horse-knight-queen-chess-piece-685f7956858553c3aef5b61f7b88109d.png')"></li>
+                <li><img src="chess-piece-bishop-queen-knight-chess-b3c813f95f6ee8b95b2125f084d4fbcf.png" onclick="changeColor('#b32d00');changeImg('chess-piece-bishop-queen-knight-chess-b3c813f95f6ee8b95b2125f084d4fbcf.png')"></li>
+            </ul>
+            <ul class="social">
+                <li><a href="#"><img src="facebook.png"></a></li>
+                <li><a href="#"><img src="instagram (1).png"></a></li>
+                <li><a href="#"><img src="twitter (1).png"></a></li>
+            </ul>
+        </section>
+        <script src="chess.js"></script>
+    </body>
+</html>
